@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: hsl(233, 47%, 7%);
+}
+
+.container-md {
+    width: 72%;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 10%;
+    background-color: hsl(244, 38%, 16%);
+}
+
+
+.col-first {
+    margin: 60px;
+    width: 50%;
+}
+
+.row-title {
+    color: hsl(0, 0%, 100%);
+}
+
+span {
+    color: hsl(277, 64%, 61%);
+}
+
+.row-text {
+    width: 95%;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.row-info {
+    display: flex;
+}
+
+.row-info h2 {
+    color:  hsl(0, 0%, 100%);
+    font-size: 25px;
+}
+
+.row-info p {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 11px;
+    letter-spacing: 0.7px;
+}
+
+.col-img {
+    position: relative;
+    width: 50%;
+}
+
+.col-img::after {
+    content: '';
+    top: 0;
+    bottom: 0;
+    width: 98%;
+    right: 0;
+    position: absolute;
+    background-color: hsl(277, 64%, 61%,0.6);
+}
+
+img {
+    position: relative;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.attribution {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsl(277, 64%, 61%);
+}
