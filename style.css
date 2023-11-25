@@ -90,13 +90,13 @@ span {
     }
 
     body {
-        padding-top: 20px;
+        padding: 20px 20px 20px 20px;
         display: block;
         height: 100vh;
     }
 
     .container-md {
-        width: 90%;
+        width: 100%;
         display: flex;
         text-align: center;
         justify-content: center;
